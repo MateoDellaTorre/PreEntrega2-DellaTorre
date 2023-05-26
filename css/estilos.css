@@ -1,0 +1,204 @@
+*{ 
+   margin: 0px; 
+   padding: 0px; 
+   box-sizing: border-box;
+} 
+header{
+    background-color: black;
+}
+.navbar-toggler {
+    background-color: white; 
+}
+ 
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar.container-sm, .navbar.container-xl, .navbar .container-xxl {
+    background: white;
+}
+.navbar-brand {
+    color: white;
+}
+
+main section .principal{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr  ; 
+    grid-template-rows: 2fr 2fr ; 
+    grid-template-areas: "img-contenedor-uno img-contenedor-dos  " 
+                         "img-contenedor-tres img-contenedor-cuatro";
+} 
+
+.img-contenedor-uno{
+    grid-area:"img-contenedor-uno" ;
+    color: white;
+    padding: 100 px     ;
+    margin: 100 px  ;
+    text-align: center;
+
+}
+.img-contenedor-dos{
+    grid-area:"img-contenedor-dos" ;
+    color: white;
+    padding: 100 px  ;
+    margin: 100 px  ;
+    text-align: center;
+
+}
+.img-contenedor-tres{
+    grid-area:"img-contenedor-tres" ;
+    color: white;
+    padding: 100 px     ;
+    margin: 100 px  ;
+    text-align: center;
+
+}
+.img-contenedor-cuatro{
+    grid-area:"img-contenedor-cuatro" ;
+    color: white;
+    padding: 100 px     ;
+    margin: 100 px  ;
+    text-align: center;
+
+} 
+
+.body-index{
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+    padding: 100px;
+    margin-top: 100px;
+    
+}  
+footer div .meodedi{
+    color: whitesmoke; 
+    font-size: 2rem ;
+} 
+
+main h1{
+    text-align: center;
+    padding-top: 5rem;
+} 
+
+main section .funciona{
+    display: grid;
+    grid-template-columns:2fr 2fr ; 
+    grid-template-rows: 2fr 2fr ; 
+    grid-template-areas: "bat-uno" "bat-dos" 
+                         "bat-tres" "bat-cuatro";
+}  
+.bat-uno{
+    grid-area: "bat-uno"; 
+    padding: 100 px  ;
+    margin: 100 px  ;
+    text-align: center;
+
+}
+.bat-dos{
+    grid-area: "bat-dos"; 
+    padding: 100 px  ;
+    margin: 100 px  ;
+    text-align: center;
+}
+.bat-tres{
+    grid-area: "bat-tres";
+    padding-top: 60px;
+    margin: 100 px  ;
+    text-align: center;
+}
+.bat-cuatro{
+    grid-area: "bat-cuatro";
+    padding-top: 20px;
+    margin: 100 px  ;
+    text-align: center;
+}
+/*Media query*/ 
+
+@media screen and (max-width: 564px) {
+
+    main section .principal{
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns:  1fr ; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        grid-template-areas:"img-contenedor-uno "
+                            "img-contenedor-dos " 
+                            "img-contenedor-tres"
+                            "img-contenedor-cuatro";
+    } 
+     
+    .img-contenedor-uno{
+        grid-area:"img-contenedor-uno" ;
+        color: white;
+        padding: 100 px     ;
+        margin: 100 px  ;
+        text-align: center;
+    
+    }
+    .img-contenedor-dos{
+        grid-area:"img-contenedor-dos" ;
+        color: white;
+        padding: 100 px     ;
+        margin: 100 px  ;
+        text-align: center;
+    
+    }
+    .img-contenedor-tres{
+        grid-area:"img-contenedor-tres" ;
+        color: white;
+        padding: 100 px     ;
+        margin: 100 px  ;
+        text-align: center;
+    
+    }
+    .img-contenedor-cuatro{
+        grid-area:"img-contenedor-cuatro" ;
+        color: white;
+        padding: 100 px     ;
+        margin: 100 px  ;
+        text-align: center;
+    
+    } 
+    
+    main section .funciona{
+        display: grid;
+        grid-template-columns:2fr; 
+        grid-template-rows: 2fr 2fr 2fr 2fr ; 
+        grid-template-areas: "bat-uno" 
+                             "bat-dos" 
+                             "bat-tres" 
+                             "bat-cuatro";
+    }  
+    .bat-uno{
+        grid-area: "bat-uno"; 
+        padding: 100 px  ;
+        margin: 100 px  ;
+        text-align: center;
+    
+    }
+    .bat-dos{
+        grid-area: "bat-dos"; 
+        padding: 100 px  ;
+        margin: 100 px  ;
+        text-align: center;
+    }
+    .bat-tres{
+        grid-area: "bat-tres";
+        padding-top: 60px;
+        margin: 100 px  ;
+        text-align: center;
+    }
+    .bat-cuatro{
+        grid-area: "bat-cuatro";
+        padding-top: 20px;
+        margin: 100 px  ;
+        text-align: center;
+    }
+
+
+}

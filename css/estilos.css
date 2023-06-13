@@ -1,2 +1,5 @@
-header {
-  background-color: black; }
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

@@ -3,3 +3,18 @@
     height: $height;
     background-color: $color-fondo;
 } 
+
+@mixin grid($colums, $rows){
+    display: grid;
+    grid-template-columns: $colums;
+    grid-template-rows: $rows;
+    
+} 
+
+@mixin hijosgrid($valor){
+    grid-area: $valor;
+    color: white;
+    padding: 6.2rem;
+    margin: 6.2rem; 
+    text-align: center;
+}

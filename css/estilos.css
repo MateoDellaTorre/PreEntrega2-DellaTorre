@@ -4,5 +4,44 @@
   padding: 0;
   box-sizing: border-box; }
 
-header {
+.body-index {
   background-color: black; }
+  .body-index main section .principal {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: "img-contenedor-uno img-contenedor-dos" "img-contenedor-tres img-contenedor-cuatro"; }
+    .body-index main section .principal .img-contenedor-uno {
+      grid-area: img-contenedor-uno;
+      color: white;
+      padding: 6.2rem;
+      margin: 6.2rem;
+      text-align: center; }
+    .body-index main section .principal .img-contenedor-dos {
+      grid-area: img-contenedor-dos;
+      color: white;
+      padding: 6.2rem;
+      margin: 6.2rem;
+      text-align: center; }
+    .body-index main section .principal .img-contenedor-tres {
+      grid-area: img-contenedor-tres;
+      color: white;
+      padding: 6.2rem;
+      margin: 6.2rem;
+      text-align: center; }
+    .body-index main section .principal .img-contenedor-cuatro {
+      grid-area: img-contenedor-cuatro;
+      color: white;
+      padding: 6.2rem;
+      margin: 6.2rem;
+      text-align: center; }
+
+footer {
+  text-align: center;
+  padding: 6.2rem;
+  margin-top: 6.2rem; }
+  footer .meodedi {
+    color: white;
+    font-size: 2rem; }

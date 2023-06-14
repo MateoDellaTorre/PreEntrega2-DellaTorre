@@ -1,3 +1,5 @@
+@import "utilidades/variables";
+@import "utilidades/mixin";
 /*Reset*/
 *{
     margin: 0;
@@ -5,5 +7,13 @@
     box-sizing: border-box;
 }
 
+@import "html/index"; 
 
+footer{
+   @include footer;
+        .meodedi{
+            color: $color-sec;
+            font-size: 2rem;
+        }
+} 
 

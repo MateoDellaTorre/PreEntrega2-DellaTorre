@@ -1,3 +1,42 @@
 @import "../utilidades/variables";
+@import "../utilidades/mixin";
 
+
+.body-index {
+    background-color: black;
+
+    main {
+        section {
+            .principal {
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                grid-template-columns: 2fr 2fr;
+                grid-template-rows: 2fr 2fr;
+                grid-template-areas: "img-contenedor-uno img-contenedor-dos"
+                                     "img-contenedor-tres img-contenedor-cuatro";
+
+                .img-contenedor-uno {
+                    @include hijosgrid(img-contenedor-uno);
+                }
+
+                .img-contenedor-dos {
+                    @include hijosgrid(img-contenedor-dos);
+                }
+
+                .img-contenedor-tres {
+                    @include hijosgrid(img-contenedor-tres);
+                }
+
+                .img-contenedor-cuatro {
+                    @include hijosgrid(img-contenedor-cuatro);
+                }
+
+
+
+
+            }
+        }
+    }
+}
 

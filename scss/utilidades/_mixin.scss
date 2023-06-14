@@ -1,20 +1,16 @@
-@mixin productos($width, $height, $color-fondo){
-    width: $width;
-    height: $height;
-    background-color: $color-fondo;
-} 
 
-@mixin grid($colums, $rows){
-    display: grid;
-    grid-template-columns: $colums;
-    grid-template-rows: $rows;
-    
-} 
+@import "variables";
 
-@mixin hijosgrid($valor){
-    grid-area: $valor;
-    color: white;
+@mixin hijosgrid($grid-area){
+    grid-area: $grid-area;
+    color: $color-sec;
     padding: 6.2rem;
     margin: 6.2rem; 
     text-align: center;
+} 
+
+@mixin footer{
+    text-align: center;
+    padding: 6.2rem;
+    margin-top: 6.2rem;
 }

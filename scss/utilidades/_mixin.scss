@@ -1,0 +1,5 @@
+@mixin productos($width, $height, $color-fondo){
+    width: $width;
+    height: $height;
+    background-color: $color-fondo;
+} 

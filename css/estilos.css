@@ -16,7 +16,6 @@
     .body-index main section .principal .img-contenedor-uno {
       grid-area: img-contenedor-uno;
       color: white;
-      padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
       .body-index main section .principal .img-contenedor-uno a img:hover {
@@ -24,7 +23,6 @@
     .body-index main section .principal .img-contenedor-dos {
       grid-area: img-contenedor-dos;
       color: white;
-      padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
       .body-index main section .principal .img-contenedor-dos a img:hover {
@@ -32,7 +30,6 @@
     .body-index main section .principal .img-contenedor-tres {
       grid-area: img-contenedor-tres;
       color: white;
-      padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
       .body-index main section .principal .img-contenedor-tres a img:hover {
@@ -40,7 +37,6 @@
     .body-index main section .principal .img-contenedor-cuatro {
       grid-area: img-contenedor-cuatro;
       color: white;
-      padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
       .body-index main section .principal .img-contenedor-cuatro a img:hover {
@@ -150,3 +146,32 @@ main .contacto {
   margin-top: 4rem;
   gap: 1.3rem;
   margin-left: 1rem; }
+
+@media screen and (max-width: 860px) {
+  main section .principal {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img-contenedor-uno" "img-contenedor-dos" "img-contenedor-tres" "img-contenedor-cuatro"; }
+    main section .principal .img-contenedor-uno {
+      grid-area: img-contenedor-uno;
+      color: white;
+      margin: 6.2rem;
+      text-align: center; }
+    main section .principal .img-contenedor-dos {
+      grid-area: img-contenedor-dos;
+      color: white;
+      margin: 6.2rem;
+      text-align: center; }
+    main section .principal .img-contenedor-tres {
+      grid-area: img-contenedor-tres;
+      color: white;
+      margin: 6.2rem;
+      text-align: center; }
+    main section .principal .img-contenedor-cuatro {
+      grid-area: img-contenedor-cuatro;
+      color: white;
+      margin: 6.2rem;
+      text-align: center; } }

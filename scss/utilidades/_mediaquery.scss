@@ -1,0 +1,46 @@
+@import "mixin";
+
+@media screen and (max-width: 860px) {
+    main{
+        section{
+            .principal{
+                display: grid;
+                justify-items: center;
+                align-items: center;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-areas: "img-contenedor-uno"
+                                     "img-contenedor-dos"
+                                     "img-contenedor-tres"
+                                     "img-contenedor-cuatro";
+               .img-contenedor-uno{
+                grid-area: img-contenedor-uno;
+                color: white;
+                margin: 6.2rem; 
+                text-align: center;
+               }     
+               .img-contenedor-dos{
+                grid-area: img-contenedor-dos;
+                color: white;
+                margin: 6.2rem; 
+                text-align: center;
+                
+               }                  
+               .img-contenedor-tres{
+                grid-area: img-contenedor-tres;
+                color: white;
+                margin: 6.2rem; 
+                text-align: center;
+                
+               }                  
+               .img-contenedor-cuatro{
+                grid-area: img-contenedor-cuatro;
+                color: white;
+                margin: 6.2rem; 
+                text-align: center;
+                
+               }                                   
+            }
+        }
+    }
+}

@@ -5,7 +5,6 @@
 @mixin hijosgrid($grid-area){
     grid-area: $grid-area;
     color: $color-sec;
-    padding: 6.2rem;
     margin: 6.2rem; 
     text-align: center;
 } 

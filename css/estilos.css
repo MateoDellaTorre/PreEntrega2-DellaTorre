@@ -19,24 +19,32 @@
       padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
+      .body-index main section .principal .img-contenedor-uno a img:hover {
+        transform: scale(0.8); }
     .body-index main section .principal .img-contenedor-dos {
       grid-area: img-contenedor-dos;
       color: white;
       padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
+      .body-index main section .principal .img-contenedor-dos a img:hover {
+        transform: scale(0.8); }
     .body-index main section .principal .img-contenedor-tres {
       grid-area: img-contenedor-tres;
       color: white;
       padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
+      .body-index main section .principal .img-contenedor-tres a img:hover {
+        transform: scale(0.8); }
     .body-index main section .principal .img-contenedor-cuatro {
       grid-area: img-contenedor-cuatro;
       color: white;
       padding: 6.2rem;
       margin: 6.2rem;
       text-align: center; }
+      .body-index main section .principal .img-contenedor-cuatro a img:hover {
+        transform: scale(0.8); }
 
 footer {
   text-align: center;
@@ -136,3 +144,9 @@ main .pepito {
   background-color: black;
   padding-top: 1rem;
   padding-bottom: 1rem; }
+
+main .contacto {
+  display: flex;
+  margin-top: 4rem;
+  gap: 1.3rem;
+  margin-left: 1rem; }

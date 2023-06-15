@@ -18,18 +18,38 @@
 
                 .img-contenedor-uno {
                     @include hijosgrid(img-contenedor-uno);
+                    a{
+                       img{
+                        @include img;
+                       }
+                    }
                 }
 
                 .img-contenedor-dos {
                     @include hijosgrid(img-contenedor-dos);
+                    a{
+                        img{
+                         @include img;
+                        }
+                     }
                 }
 
                 .img-contenedor-tres {
                     @include hijosgrid(img-contenedor-tres);
+                    a{
+                        img{
+                         @include img;
+                        }
+                     }
                 }
 
                 .img-contenedor-cuatro {
                     @include hijosgrid(img-contenedor-cuatro);
+                    a{
+                        img{
+                         @include img;
+                        }
+                     }
                 }
 
 

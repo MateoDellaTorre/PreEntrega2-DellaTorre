@@ -1,6 +1,15 @@
 @import "../utilidades/mixin";
+
 main{
     .pepito{
         @include titulo;
     }
-}
+    .contacto{
+        display: flex;   
+        margin-top: 4rem;
+        gap: 1.3rem;
+        margin-left: 1rem;
+    }
+} 
+
+

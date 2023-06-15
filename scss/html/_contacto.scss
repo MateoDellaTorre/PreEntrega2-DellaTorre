@@ -1,0 +1,6 @@
+@import "../utilidades/mixin";
+main{
+    .pepito{
+        @include titulo;
+    }
+}

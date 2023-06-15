@@ -1,5 +1,37 @@
+@import "../utilidades/mixin";
 
+main {
+    section {
+        .funciona {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-template-rows: 2fr 2fr;
+            grid-template-areas: "bat-uno bat-dos"
+                                 "bat-tres bat-cuatro";
 
-main{
-    
+            .bat-uno {
+                @include hijos(bat-uno);
+                padding: 6.2rem;
+            }
+
+            .bat-dos {
+                @include hijos(bat-dos);
+                padding: 6.2rem;
+            }
+
+            .bat-tres {
+                @include hijos(bat-tres);
+                padding-top: 3.7rem;
+            }
+
+            .bat-cuatro {
+                @include hijos(bat-cuatro);
+                padding-top: 1.2rem;
+            }
+        }
+    }
 }
+
+//puerto san julian 
+//comandante piedra buena 
+//gregores 

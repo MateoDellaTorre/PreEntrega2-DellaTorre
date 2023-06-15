@@ -1,6 +1,7 @@
 
 @import "variables";
 
+
 @mixin hijosgrid($grid-area){
     grid-area: $grid-area;
     color: $color-sec;
@@ -9,8 +10,32 @@
     text-align: center;
 } 
 
+@mixin hijos($rama){
+    grid-area: $rama;
+    margin: 6.2rem;
+    text-align: center;
+}
+
 @mixin footer{
     text-align: center;
     padding: 6.2rem;
     margin-top: 6.2rem;
+    background-color: $color-footer;
+} 
+
+@mixin nosotros($nosotros){
+    display: grid;
+    grid-area: $nosotros;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+@mixin titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color-sec; 
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

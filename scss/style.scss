@@ -6,14 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+//index
 @import "html/index"; 
 
 footer{
    @include footer;
-        .meodedi{
+          .meodedi{
             color: $color-sec;
             font-size: 2rem;
         }
-} 
+}  
+//productos
+@import "html/productos";
 
+//nosotros
+@import "html/nosotros";
+
+//contacto 
+@import "html/contacto";

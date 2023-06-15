@@ -41,7 +41,98 @@
 footer {
   text-align: center;
   padding: 6.2rem;
-  margin-top: 6.2rem; }
+  margin-top: 6.2rem;
+  background-color: black; }
   footer .meodedi {
     color: white;
     font-size: 2rem; }
+
+main section .funciona {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-template-areas: "bat-uno bat-dos" "bat-tres bat-cuatro"; }
+  main section .funciona .bat-uno {
+    grid-area: bat-uno;
+    margin: 6.2rem;
+    text-align: center;
+    padding: 6.2rem; }
+  main section .funciona .bat-dos {
+    grid-area: bat-dos;
+    margin: 6.2rem;
+    text-align: center;
+    padding: 6.2rem; }
+  main section .funciona .bat-tres {
+    grid-area: bat-tres;
+    margin: 6.2rem;
+    text-align: center;
+    padding-top: 3.7rem; }
+  main section .funciona .bat-cuatro {
+    grid-area: bat-cuatro;
+    margin: 6.2rem;
+    text-align: center;
+    padding-top: 1.2rem; }
+
+main .tittle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+main .nosotros {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "p-uno foto-uno" "p-dos foto-dos" "p-tres foto-tres";
+  margin: 6rem;
+  gap: 2rem; }
+
+main .foto-uno {
+  display: grid;
+  grid-area: foto-uno;
+  margin-left: 16rem;
+  margin-bottom: 2rem; }
+
+main .foto-dos {
+  display: grid;
+  grid-area: foto-dos;
+  margin-left: 16rem;
+  margin-top: 2rem; }
+
+main .foto-tres {
+  display: grid;
+  grid-area: foto-tres;
+  margin-left: 16rem;
+  margin-top: 2rem; }
+
+main .p-uno {
+  display: grid;
+  grid-area: p-uno;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black; }
+
+main .p-dos {
+  display: grid;
+  grid-area: p-dos;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem; }
+
+main .p-tres {
+  display: grid;
+  grid-area: p-tres;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black; }
+
+main .pepito {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }

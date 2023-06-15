@@ -1,0 +1,50 @@
+
+
+main {
+    .tittle {
+       @include titulo;
+    }
+    .nosotros {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "p-uno foto-uno"
+                             "p-dos foto-dos"
+                             "p-tres foto-tres"; 
+        margin: 6rem; 
+        gap: 2rem;                 
+    }
+    
+    .foto-uno{
+         display: grid;
+         grid-area: foto-uno;
+         margin-left: 16rem;
+         margin-bottom: 2rem;
+         
+    } 
+    .foto-dos{
+         display: grid;
+         grid-area: foto-dos;
+         margin-left: 16rem ;
+         margin-top: 2rem
+    }
+    .foto-tres{
+        display: grid;
+        grid-area: foto-tres;
+        margin-left: 16rem ;
+        margin-top: 2rem
+    }
+    .p-uno{
+        @include nosotros(p-uno);
+    } 
+    .p-dos{
+        @include nosotros(p-dos);
+        padding-bottom: 2rem;
+    }
+    .p-tres{
+        @include nosotros(p-tres);
+        
+    }
+    
+
+}

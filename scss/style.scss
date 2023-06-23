@@ -1,5 +1,6 @@
 @import "utilidades/variables";
 @import "utilidades/mixin";
+@import "utilidades/extend";
 /*Reset*/
 *{
     margin: 0;
@@ -10,7 +11,7 @@
 @import "html/index"; 
 
 footer{
-   @include footer;
+   @extend %footer;
           .meodedi{
             color: $color-sec;
             font-size: 2rem;

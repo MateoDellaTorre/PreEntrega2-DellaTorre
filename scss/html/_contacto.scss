@@ -1,6 +1,10 @@
 @import "../utilidades/mixin";
 
 main{
+    form{
+        margin-left: 24rem;
+        margin-top: 4rem;
+    }
     .pepito{
         @include titulo;
     }

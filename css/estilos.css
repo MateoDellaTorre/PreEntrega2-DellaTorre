@@ -1,3 +1,9 @@
+footer {
+  text-align: center;
+  padding: 6.2rem;
+  margin-top: 6.2rem;
+  background-color: black; }
+
 /*Reset*/
 * {
   margin: 0;
@@ -42,14 +48,9 @@
       .body-index main section .principal .img-contenedor-cuatro a img:hover {
         transform: scale(0.8); }
 
-footer {
-  text-align: center;
-  padding: 6.2rem;
-  margin-top: 6.2rem;
-  background-color: black; }
-  footer .meodedi {
-    color: white;
-    font-size: 2rem; }
+footer .meodedi {
+  color: white;
+  font-size: 2rem; }
 
 main section .funciona {
   display: grid;
@@ -59,13 +60,11 @@ main section .funciona {
   main section .funciona .bat-uno {
     grid-area: bat-uno;
     margin: 6.2rem;
-    text-align: center;
-    padding: 6.2rem; }
+    text-align: center; }
   main section .funciona .bat-dos {
     grid-area: bat-dos;
     margin: 6.2rem;
-    text-align: center;
-    padding: 6.2rem; }
+    text-align: center; }
   main section .funciona .bat-tres {
     grid-area: bat-tres;
     margin: 6.2rem;
@@ -133,6 +132,10 @@ main .p-tres {
   text-align: center;
   border-bottom: 2px solid black; }
 
+main form {
+  margin-left: 24rem;
+  margin-top: 4rem; }
+
 main .pepito {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -148,30 +151,30 @@ main .contacto {
   margin-left: 1rem; }
 
 @media screen and (max-width: 860px) {
-  main section .principal {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "img-contenedor-uno" "img-contenedor-dos" "img-contenedor-tres" "img-contenedor-cuatro"; }
-    main section .principal .img-contenedor-uno {
-      grid-area: img-contenedor-uno;
-      color: white;
-      margin: 6.2rem;
-      text-align: center; }
-    main section .principal .img-contenedor-dos {
-      grid-area: img-contenedor-dos;
-      color: white;
-      margin: 6.2rem;
-      text-align: center; }
-    main section .principal .img-contenedor-tres {
-      grid-area: img-contenedor-tres;
-      color: white;
-      margin: 6.2rem;
-      text-align: center; }
-    main section .principal .img-contenedor-cuatro {
-      grid-area: img-contenedor-cuatro;
-      color: white;
-      margin: 6.2rem;
-      text-align: center; } }
+  .body-index main section .principal {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 860px) {
+  main section .funciona {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 860px) {
+  main .nosotros {
+    display: flex;
+    flex-direction: column; }
+    main .nosotros .foto-uno {
+      width: 150px; }
+    main .nosotros .foto-dos {
+      width: 150px; }
+    main .nosotros .foto-tres {
+      width: 150px; } }
+
+@media screen and (max-width: 530px) {
+  main .nosotros .foto-uno {
+    margin-left: 0px; }
+  main .nosotros .foto-dos {
+    margin-left: 0px; }
+  main .nosotros .foto-tres {
+    margin-left: 0px; } }

@@ -177,4 +177,16 @@ main .contacto {
   main .nosotros .foto-dos {
     margin-left: 0px; }
   main .nosotros .foto-tres {
-    margin-left: 0px; } }
+    margin-left: 0px; }
+  footer {
+    padding: 0px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: black; }
+    footer .img-foot {
+      width: 190px; } }
+
+@media screen and (max-width: 400px) {
+  main section .principal img {
+    width: 200px;
+    height: 200px; } }

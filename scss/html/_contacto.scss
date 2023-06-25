@@ -2,7 +2,7 @@
 
 main{
     form{
-        margin-left: 24rem;
+        margin-left: 28rem;
         margin-top: 4rem;
     }
     .pepito{
@@ -10,10 +10,14 @@ main{
     }
     .contacto{
         display: flex;   
-        margin-top: 4rem;
-        gap: 1.3rem;
-        margin-left: 1rem;
+        gap: 2rem;
+        justify-content: flex-start;
+        align-items: flex-end;
+        
+       
     }
+
+   
 } 
 
 
